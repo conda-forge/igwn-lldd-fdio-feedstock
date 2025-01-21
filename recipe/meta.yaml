@@ -14,19 +14,19 @@ build:
     - kafka2fdio = igwn_lldd_fdio.kafka2fdio:main
     - fdio2kafka = igwn_lldd_fdio.fdio2kafka:main
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vvv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools >=38.2.5
   run:
     - configargparse
     - igwn-lldd-common
     - pyfd
-    - python >=3.6
+    - python >={{ python_min }}
     - pythonvirgotools
 
 test:
@@ -34,6 +34,7 @@ test:
     - pip
     - pytest
     - flaky
+    - python {{ python_min }}
   commands:
     # check metadata
     - python -m pip check igwn-lldd-fdio
