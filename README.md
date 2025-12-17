@@ -7,7 +7,11 @@ Home: https://git.ligo.org/computing/lowlatency/igwn-lldd-fdio
 
 Package license: GPL-3.0-or-later
 
-Summary: The IGWN - Low Latency Data Distribution (lldd) - Frame distribtion
+Summary: International Gravitational Wave Network (IGWN) - Low Latency Data Distribution - Frame distribution Input/ Output
+
+Development: https://git.ligo.org/computing/lowlatency/igwn-lldd-fdio
+
+The IGWN - Low Latency Data Distribution (lldd) - Frame distribtion
 Input/ Output (FdIO) is software to distribute low latency data
 used by the International Gravitational-Wave Observatory Network
 (IGWN) using a FdIOServer.
