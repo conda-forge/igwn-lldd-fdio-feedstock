@@ -54,6 +54,9 @@ about:
       Input/ Output (FdIO) is software to distribute low latency data
       used by the International Gravitational-Wave Observatory Network 
       (IGWN) using a FdIOServer.
+
 extra:
   recipe-maintainers:
-    - rhyspoulton
+    - duncanmmacleod
+    - erinelizabethseder-virgo
+    - fcarbogn
