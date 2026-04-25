@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: igwn-lldd-fdio
-  version: 0.1.0
+  version: 0.2.0
 
 package:
   name: ${{ name }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://git.ligo.org/computing/lowlatency/${{ name }}/-/archive/${{ version }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 862fcb1f7f7039ebe126e9d532835696fa8b29ef954bca162b687dfccdbad8d9
+  sha256: 45174838214986c8d744c86090c2db8e1475875159de8ae46732f7a273df8e25
 
 build:
-  number: 1
+  number: 0
   noarch: python
   python:
     entry_points:
